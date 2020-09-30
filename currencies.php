@@ -145,7 +145,7 @@
                                                 <tr>
                                                     <td class="table-cell">'.$name.'</td>
                                                     <td class="table-cell">'.$description.'</td>
-                                                    <td class="table-cell"><img src="assets/img/mcicons/'.$icon.'.png" height="20px"> '.$icon.'</td>
+                                                    <td class="table-cell"><img src="https://ultrapluginswebaddons.com/new/uecon/mcicons/'.$icon.'.png" height="20px"> '.$icon.'</td>
                                                     <td class="table-cell">'.$main.'</td>
                                                     <td class="table-cell">'.$singular.'</td>
                                                     <td class="table-cell">'.$plural.'</td>
