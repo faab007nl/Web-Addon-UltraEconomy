@@ -1,0 +1,1 @@
+<?php $dbhostname="localhost";$dbdatabase="uecon";$dbusername="root";$dbpassword="Stroom220v"; ?>
