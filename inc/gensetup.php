@@ -40,12 +40,12 @@
 				exit();
 			}
 
-			$pdoResult = $PDOdb->prepare("CREATE TABLE `WebAddon_Users` ( `Id` INT NOT NULL AUTO_INCREMENT , `Username` VARCHAR(100) NOT NULL , `Password` VARCHAR(100) NOT NULL , `Role` VARCHAR(20) NOT NULL , PRIMARY KEY (`Id`));");
+			$pdoResult = $PDOdb->prepare("CREATE TABLE `ultraeconomy_WebAddon_Users` ( `Id` INT NOT NULL AUTO_INCREMENT , `Username` VARCHAR(100) NOT NULL , `Password` VARCHAR(100) NOT NULL , `Role` VARCHAR(20) NOT NULL , PRIMARY KEY (`Id`));");
 			$pdoExec = $pdoResult->execute();
 			$rowcount = $pdoResult->rowCount();
 			
 			if($pdoExec){
-				$pdoResult = $PDOdb->prepare("INSERT INTO WebAddon_Users(Id, Username, Password, Role) VALUES (NULL, :Username, :Password, :Role)");
+				$pdoResult = $PDOdb->prepare("INSERT INTO ultraeconomy_WebAddon_Users(Id, Username, Password, Role) VALUES (NULL, :Username, :Password, :Role)");
 				$pdoExec = $pdoResult->execute(array(":Username"=>$username, ":Password"=>$password, ":Role"=>"admin"));
 				$rowcount = $pdoResult->rowCount();
 				
