@@ -3,7 +3,7 @@ A Web Addon by Faab007.
 
 SpigotMC Page: https://www.spigotmc.org/resources/web-addon-ultraeconomy.84355/
 
-Description
+Description:
 This web addon displays information about your servers economy.
 
 Installation
