@@ -1,30 +1,22 @@
-UltraEconomy Web Addon by Faab007NL
+UltraPunishments
+A Web Addon by Faab007.
 
-SpigotMC Page: 
+Description
+This web addon displays information about your servers economy.
 
-Description: This web addon displays all of the punishments, Warnings, Users and Reports in a website. It uses mysql. So you will need to enable mysql plugin side.
-
-Demo: 
-
-Installation:
-
-Download.
-Extract and upload.
-Rename "rename to .htacces" to ".htacces"
-Go to the website.
-Enter the database and user information and click Done
+Installation
+1. Download.
+2. Extract and upload.
+3. Rename "rename to .htacces" to ".htacces"
+4. Go to the website.
+5. Enter the database and user information and click Done
 Done!
-Support: Join the ultra customizer Discord and tag me (@Faab007NL#9999)
 
-Multi Language Support: The web addon support multiple languages
-
-How to add a language
-
-Go to inc/languages/
-Copy blank.json.
-Rename it to the 2 digit code of the language.
-Then open the new file.
-In the spot langname enter the full name of the language
-Add a translation for every word/sentence.
-Done
-If you want the translation to be public send me a DM on Discord. (@Faab007NL#9999)
+Adding a Language
+1. Go to inc/languages/
+2. Copy blank.json.
+3. Rename it to the 2 digit code of the language.
+4. Then open the new file.
+5. In the spot, langname, enter the full name of the language
+6. Add a translation for every word/sentence.
+Done!
